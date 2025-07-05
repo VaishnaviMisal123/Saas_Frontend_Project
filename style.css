@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.list-group-item.active {
+  background-color: #f5f7fa;
+  border: none;
+}
+
+.inbox-avatar {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.review-avatar {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.reply-avatar {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.product-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}

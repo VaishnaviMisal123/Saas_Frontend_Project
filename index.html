@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container-fluid vh-100">
+    <div class="row h-100">
+      <div class="col-auto d-flex flex-column bg-light border-end py-3" style="width: 60px;">
+        <a href="#" class="my-3"><i class="fa-solid fa-circle-up fs-5"></i></a>
+        <a href="#" class="my-3 text-black"><i class="fa-solid fa-gauge-high fs-5"></i></a>
+        <a href="#" class="my-3 text-black"><i class="fa-solid fa-envelope-open fs-5"></i></a>
+        <a href="#" class="my-3 text-black"><i class="fa-regular fa-clipboard fs-5"></i></a>
+        <a href="#" class="my-3 text-black"><i class="fa-regular fa-star-half-stroke fs-5"></i></a>
+      </div>
+
+      <div class="col d-flex flex-column p-0">
+        <div class="d-flex justify-content-between align-items-center bg-light border-bottom p-3">
+          <div class="d-flex align-items-center">
+            <i class="fa-regular fa-square-caret-right text-black me-2"></i>
+            <span class="text-muted me-2">Unified Inbox</span>
+            <span class="text-muted me-2">/</span>
+            <span>Inbox</span>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="fa-regular fa-bell fs-5"></i>
+            <img src="profilePic.jpeg" class="rounded-circle me-2 inbox-avatar ms-3" alt="avatar"/>
+          </div>
+        </div>
+
+        <div class="row flex-grow-1">
+          <div class="col-3 border-end d-flex flex-column overflow-auto">
+            <div class="border-bottom p-3">
+              <h6 class="mb-3">Google</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control form-control-sm" placeholder="Search" />
+                <span class="input-group-text bg-white"><i class="fa-solid fa-magnifying-glass"></i></span>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-outline-secondary btn-sm active">All (20)</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm">Unread (2)</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm">Priority</button>
+                <button type="button" class="btn btn-outline-secondary btn-sm">Un-replied (10)</button>
+              </div>
+            </div>
+
+            <div class="list-group list-group-flush flex-grow-1 overflow-auto">
+              <a href="#" class="list-group-item list-group-item-action py-3 active">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <img src="img1.jpeg" class="rounded-circle me-2 inbox-avatar" alt="avatar"/>
+                    <div>
+                      <h6 class="mb-0 small">Jacob Jones</h6>
+                      <small>⭐⭐⭐⭐⭐</small><br/>
+                      <small class="text-muted">Great quality and attention to detail...</small>
+                    </div>
+                  </div>
+                  <small class="text-muted">5:42 PM</small>
+                </div>
+              </a>
+
+              <a href="#" class="list-group-item list-group-item-action py-3">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <img src="img2.jpeg" class="rounded-circle me-2 inbox-avatar" alt="avatar"/>
+                    <div>
+                      <h6 class="mb-0 small">Marvin McKinney</h6>
+                      <small>⭐⭐⭐☆☆</small><br/>
+                      <small class="text-muted">The team is talented and product was good...</small>
+                    </div>
+                  </div>
+                  <small class="text-muted">3:20 PM</small>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col p-4 d-flex flex-column">
+            <div class="flex-grow-1">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <div class="d-flex align-items-center">
+                  <img src="img3.jpeg" class="rounded-circle me-2 review-avatar" alt="avatar"/>
+                  <div>
+                    <h6 class="mb-0">Marvin McKinney <i class="fa-solid fa-flag text-danger ms-1"></i></h6>
+                    <small class="text-muted">Posted on: Jun 24, 2025 • 3:20 PM</small>
+                  </div>
+                </div>
+                <span class="badge bg-light text-dark">3.0 ⭐⭐⭐☆☆</span>
+              </div>
+
+              <p>The team is talented, and their product was good, but communication could be better. I had to follow up multiple times to get updates. If they improve responsiveness, they'd be perfect.</p>
+
+              <div class="mb-3">
+                <img src="p1.jpeg" class="rounded me-2 product-img" alt="img" />
+                <img src="p2.jpeg" class="rounded me-2 product-img" alt="img" />
+                <img src="p3.jpeg" class="rounded me-2 product-img" alt="img" />
+              </div>
+
+              <div class="border rounded p-3 mb-3">
+                <div class="d-flex align-items-center mb-2">
+                  <img src="img4.jpeg" class="rounded-circle me-2 reply-avatar" alt="avatar"/>
+                  <div>
+                    <strong>You</strong> <small class="text-muted">• Replied on: Jun 24, 2025 • 3:20 PM</small>
+                  </div>
+                </div>
+                <p class="mb-0 small">
+                  Really appreciate you taking the time to share this. I’m glad you liked the product — that means a lot.
+                  I’m genuinely sorry you had to follow up more than once. We’re working on being more proactive. Thanks again!
+                </p>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Enter your reply here..."/>
+              <button class="btn btn-outline-secondary"><i class="fa-regular fa-face-smile"></i></button>
+              <button class="btn btn-outline-secondary"><i class="fa-solid fa-paperclip"></i></button>
+              <button class="btn btn-primary">Send</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
